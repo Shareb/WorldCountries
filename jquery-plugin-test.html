@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Plugin</title>
+
+<!-- serve jQuery from Google's CDN -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/plugins/jquery.myPlugin.js" type="text/javascript"></script>
+<!-- 
+Location Lists jQuery plugin
+The plugin is an AJAX-driven location drop down lists generator that is needed in almost every form.
+-->
+<script>
+$(function(){
+
+$('.test').shareb({url: "generatieLists.jsp", dependant: "testCitiesList"});
+});
+</script>
+
+</head>
+
+<body>
+
+Countries:
+<select id="test" class="test">
+</select>
+<br />
+Cities:
+<select id="testCitiesList" class="testCitiesList">
+</select>
+<br />
+
+</body>
+
+</html>

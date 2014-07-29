@@ -1,0 +1,18 @@
+root { 
+    display: block;
+}
+
+body {
+    background-color: graytext;
+    color: gainsboro;
+    font-family: calibri;
+}
+select, input[type=text] {
+    width: 150px;
+    background-color: #DEDEDE;
+    color: #000;
+    font-weight: bold;
+}
+th {text-align: left;}
+.box {width:450px; height:250px; background-color: #f67f00; border: 7px solid #6c757c;}
+h1 {color: #6c757c; font-family: courier;}
